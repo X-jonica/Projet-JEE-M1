@@ -20,7 +20,10 @@
    - Appel de l’API depuis React (via `fetch` ou `axios`)
    - Affichage de la réponse dans le frontend pour finaliser l’intégration backend ⇄ frontend
 
+5. **Résolution de l’erreur CORS**  
+   - Mise en place d’un filtre CORS dans le module web pour autoriser les requêtes provenant de l'application React
+   - Permet la communication entre deux ports différents (`localhost:8080` pour le backend et `localhost:5173` pour le frontend)
+
 ---
 
-✅ Objectif final : Avoir une architecture **modulaire, propre et connectée** entre Java EE (backend) et React (frontend).
-
+✅ **Objectif final** : Avoir une architecture **modulaire, propre et connectée** entre Java EE (backend) et React (frontend).
